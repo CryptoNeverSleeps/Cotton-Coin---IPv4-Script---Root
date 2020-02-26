@@ -43,7 +43,7 @@ watch cotton-cli getinfo
 ```
 Make sure the version number matches.
 ```
-"version" : 1006000,     ------------------This is the latest version (Cotton v1.6.0.0)
+"version" : 1060000,     ------------------This is the latest version (Cotton v1.6.0.0)
 ```
 Once the block height matches the block explorer issue the following command.
 ```
