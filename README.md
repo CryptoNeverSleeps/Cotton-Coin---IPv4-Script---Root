@@ -1,6 +1,6 @@
 ![](https://cottonco.in/wp-content/uploads/2018/05/Logo-cott01.png)
 
-# Cotton v1.6.0.0 Masternode Setup Guide [ Ubuntu 16.04 ]
+# Cotton v1.6.0.0 Masternode Setup Guide [ Ubuntu 16.04 - 18.04 - 19.X ]
 
 THIS GUIDE IS FOR ROOT USERS -
 
