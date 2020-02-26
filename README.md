@@ -26,7 +26,7 @@ Steps generate your own private key.
 
 ## VPS installation
 ```
-wget -q https://raw.githubusercontent.com/CryptoNeverSleeps/Cotton-Coin-IPv4-Script/master/cotton-ipv4.sh
+wget -q https://raw.githubusercontent.com/CryptoNeverSleeps/Cotton-Coin-IPv4-Script/master/cotton_install.sh
 bash cotton-ipv4.sh
 ```
 Once the VPS installation is finished.
