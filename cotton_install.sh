@@ -23,12 +23,11 @@ NC='\033[0m'
 function download_node() {
   echo -e "Prepare to download ${GREEN}$COIN_NAME${NC}."
   cd $TMP_FOLDER >/dev/null 2>&1
-  wget -q $COIN_TGZ
-  compile_error
-  tar xvzf $COIN_ZIP  >/dev/null 2>&1
-  cp $COIN_DAEMON $COIN_CLI $COIN_PATH
-  cd - >/dev/null 2>&1
-  rm -rf $TMP_FOLDER >/dev/null 2>&1
+  wget https://github.com/mrhappy2018/cottoncoin/releases/download/v1.6.0.0/v1.6.0.0--Linux.zip
+  unzip v1.6.0.0--Linux.zip
+  chmod +x cotton-cli cottond
+  sudo mv  cotton-cli cottond /usr/local/bin
+  rm -rf v1.6.0.0--Linux.zip cotton-qt cotton-tx
   clear
 }
 
